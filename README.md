@@ -21,3 +21,5 @@
 - [ ] A-1: The game includes a complete traditional player experience loop&mdash;title, gameplay, and ending&mdash;and the player has the option to play again.
 
 ## Third-Party Assets
+Images are from "RPG Base". Created by Kenny.nl, CC0 1.0 Universal.
+Source: https://www.kenney.nl/assets/rpg-base

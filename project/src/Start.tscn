@@ -1,0 +1,33 @@
+[gd_scene format=2]
+
+[node name="Start" type="Node"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1600.0
+margin_bottom = 900.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 552.0
+margin_top = 72.0
+margin_right = 740.0
+margin_bottom = 86.0
+rect_scale = Vector2( 2.65925, 3.71611 )
+text = "Welcome To Pumpkin Escape"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 712.0
+margin_top = 144.0
+margin_right = 795.0
+margin_bottom = 164.0
+rect_scale = Vector2( 1.9601, 2.77791 )
+text = "Start Game"
+__meta__ = {
+"_edit_use_anchors_": false
+}
