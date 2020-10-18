@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
-const GRAVITY := 10
-const JUMP := 500
+const GRAVITY := 25
+const JUMP := 1000
 const SPEED := 500
 
 onready var ground_ray := get_node("RayCast2D")
