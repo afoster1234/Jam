@@ -3,8 +3,8 @@
 Play Here: https://afoster1234.github.io/Jam/
 
 ## Controls
-*         A: Move Left
-*         D: Move Right
+* A: Move Left
+* D: Move Right
 * Spcae Bar: Jump
 
 ### INSTRUCTIONS
