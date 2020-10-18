@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Fence.png-e0b57f460cac986fe71daf39c68d80ac.stex"
+path="res://.import/Cloud.png-c05dd6c6b05f8c94cd88f569afcf2c69.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Background/Tiles/Fence.png"
-dest_files=[ "res://.import/Fence.png-e0b57f460cac986fe71daf39c68d80ac.stex" ]
+source_file="res://assets/Background/Clouds/Cloud.png"
+dest_files=[ "res://.import/Cloud.png-c05dd6c6b05f8c94cd88f569afcf2c69.stex" ]
 
 [params]
 

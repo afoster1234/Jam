@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/keyGrab.wav-7b670263374d84bd4de29b75d07a84ef.sample"
+
+[deps]
+
+source_file="res://assets/Audio/keyGrab.wav"
+dest_files=[ "res://.import/keyGrab.wav-7b670263374d84bd4de29b75d07a84ef.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

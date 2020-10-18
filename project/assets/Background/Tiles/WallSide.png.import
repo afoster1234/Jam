@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/GreenTree.png-25de414e0a3ebb72f5766b17690da6a5.stex"
+path="res://.import/WallSide.png-024533989218acf47b2905d12eb83077.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Background/Trees/GreenTree.png"
-dest_files=[ "res://.import/GreenTree.png-25de414e0a3ebb72f5766b17690da6a5.stex" ]
+source_file="res://assets/Background/Tiles/WallSide.png"
+dest_files=[ "res://.import/WallSide.png-024533989218acf47b2905d12eb83077.stex" ]
 
 [params]
 
