@@ -1,8 +1,15 @@
 # Mid-Semester Jam!
+### By: Austin Foster
+Play Here: https://afoster1234.github.io/Jam/
 
 ## Controls
+*         A: Move Left
+*         D: Move Right
+* Spcae Bar: Jump
 
 ### INSTRUCTIONS
+* Find the pumpkins! There are 5 of them. 
+* Once you get them all, travel through the door at the top of the haunted castle to escape and win the game!
 
 ## Project Report
 
@@ -23,3 +30,6 @@
 ## Third-Party Assets
 Images are from "RPG Base". Created by Kenny.nl, CC0 1.0 Universal.
 Source: https://www.kenney.nl/assets/rpg-base
+
+Images are from "Abstract Platformer". Created by Kenny.nl, CC0 1.0 Universal.
+https://www.kenney.nl/assets/abstract-platformer
