@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/windy.wav-7642baa71938cf742fadd6f1a3e37fd6.sample"
+
+[deps]
+
+source_file="res://assets/Audio/windy.wav"
+dest_files=[ "res://.import/windy.wav-7642baa71938cf742fadd6f1a3e37fd6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0

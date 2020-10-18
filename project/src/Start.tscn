@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://src/Start.gd" type="Script" id=1]
+[ext_resource path="res://assets/Items/Pumpkin.png" type="Texture" id=2]
+[ext_resource path="res://assets/Audio/menu.wav" type="AudioStream" id=3]
+[ext_resource path="res://assets/Player/playerIdle.png" type="Texture" id=4]
 
 [node name="Start" type="Node"]
 script = ExtResource( 1 )
@@ -13,7 +16,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="."]
+[node name="Message" type="Label" parent="."]
 margin_left = 552.0
 margin_top = 72.0
 margin_right = 740.0
@@ -24,14 +27,78 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Button" type="Button" parent="."]
+[node name="Message2" type="Label" parent="."]
 margin_left = 712.0
-margin_top = 144.0
-margin_right = 795.0
-margin_bottom = 164.0
+margin_top = 120.0
+margin_right = 900.0
+margin_bottom = 134.0
+rect_scale = Vector2( 1.07281, 1.29117 )
+text = "Created by : Austin Foster"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Message3" type="Label" parent="."]
+margin_left = 696.0
+margin_top = 232.0
+margin_right = 884.0
+margin_bottom = 314.0
+rect_scale = Vector2( 1.07281, 1.29117 )
+text = "| Controls |
+
+A = Move Left
+D =Move Right
+Space Bar = Jump"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Message4" type="Label" parent="."]
+anchor_left = 5.72205e-08
+anchor_top = -3.39084e-08
+anchor_right = 7.62939e-08
+anchor_bottom = -3.39084e-08
+margin_left = 336.0
+margin_top = 360.0
+margin_right = 1211.0
+margin_bottom = 442.0
+rect_scale = Vector2( 1.07281, 1.29117 )
+text = "Reach the door at the top of the castle.
+However, you must grab all 5 pumpkins to unlock the door.
+Once you reach the unlocked door you can escape the quarantine and you win!
+"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 584.0
+margin_top = 432.0
+margin_right = 804.0
+margin_bottom = 452.0
 rect_scale = Vector2( 1.9601, 2.77791 )
 text = "Start Game"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Pumpkin" type="Sprite" parent="."]
+position = Vector2( 496, 96 )
+scale = Vector2( 1.625, 1.5 )
+texture = ExtResource( 2 )
+
+[node name="Pumpkin2" type="Sprite" parent="."]
+position = Vector2( 1104, 96 )
+scale = Vector2( 1.625, 1.5 )
+texture = ExtResource( 2 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="playerIdle" type="Sprite" parent="."]
+position = Vector2( 800, 192 )
+scale = Vector2( 2.1, 2.1 )
+texture = ExtResource( 4 )
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

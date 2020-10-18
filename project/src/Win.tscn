@@ -1,7 +1,8 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://src/Win.gd" type="Script" id=1]
-
+[ext_resource path="res://assets/Items/Pumpkin.png" type="Texture" id=2]
+[ext_resource path="res://assets/Audio/winner.wav" type="AudioStream" id=3]
 
 [node name="Win" type="Node"]
 script = ExtResource( 1 )
@@ -14,28 +15,41 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="."]
-margin_left = 694.692
-margin_top = 281.275
-margin_right = 774.692
-margin_bottom = 312.275
+[node name="Return" type="Button" parent="."]
+margin_left = 576.0
+margin_top = 152.0
+margin_right = 794.0
+margin_bottom = 177.0
+rect_scale = Vector2( 2.051, 2.26351 )
+text = "Return to Main Menu"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Winner" type="Label" parent="."]
+margin_left = 456.0
+margin_top = 32.0
+margin_right = 690.0
+margin_bottom = 63.0
 rect_scale = Vector2( 2.94098, 3.10027 )
-text = "Congrats!
-You Made It!"
+text = "Winner!
+You escaped from the spooky castle!"
 align = 1
 valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Button" type="Button" parent="."]
-margin_left = 705.715
-margin_top = 402.051
-margin_right = 809.715
-margin_bottom = 431.051
-rect_scale = Vector2( 2.051, 2.26351 )
-text = "Main Menu"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[node name="Pumpkin" type="Sprite" parent="."]
+position = Vector2( 392, 80 )
+scale = Vector2( 2.051, 2.26351 )
+texture = ExtResource( 2 )
+
+[node name="Pumpkin2" type="Sprite" parent="."]
+position = Vector2( 1208, 80 )
+scale = Vector2( 2.051, 2.26351 )
+texture = ExtResource( 2 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+[connection signal="pressed" from="Return" to="." method="_on_Button_pressed"]

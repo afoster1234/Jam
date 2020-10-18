@@ -4,6 +4,9 @@ signal door_unlocked
 
 var pumpkins_remaining := 5
 
+func _ready():
+	$Wind.play()
+
 func _check_door():
 	if pumpkins_remaining == 0:
 		emit_signal("door_unlocked")
@@ -18,21 +21,29 @@ func _on_door_unlocked():
 	$Player/Locked.text = ("Door is unlocked!")
 
 func _on_P1_obtained():
-	_pickup()
-	_check_door()
-func _on_P2_obtained():
-	_pickup()
-	_check_door()
-func _on_P3_obtained():
-	_pickup()
-	_check_door()
-func _on_P4_obtained():
-	_pickup()
-	_check_door()
-func _on_P5_obtained():
+	$Grab.play()
 	_pickup()
 	_check_door()
 
+func _on_P2_obtained():
+	$Grab.play()
+	_pickup()
+	_check_door()
+
+func _on_P3_obtained():
+	$Grab.play()
+	_pickup()
+	_check_door()
+
+func _on_P4_obtained():
+	$Grab.play()
+	_pickup()
+	_check_door()
+
+func _on_P5_obtained():
+	$Grab.play()
+	_pickup()
+	_check_door()
 
 func _on_Door_body_entered(body):
 	if pumpkins_remaining == 0:

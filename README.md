@@ -32,4 +32,31 @@ Images are from "RPG Base". Created by Kenny.nl, CC0 1.0 Universal.
 Source: https://www.kenney.nl/assets/rpg-base
 
 Images are from "Abstract Platformer". Created by Kenny.nl, CC0 1.0 Universal.
-https://www.kenney.nl/assets/abstract-platformer
+Source: https://www.kenney.nl/assets/abstract-platformer
+
+Images are from "opengameart.org". Created by Calciumtrice. Creative Commons Attribution 3.0.
+Source: https://opengameart.org/content/animated-skeleton
+
+#windy check
+Sounds are from "FreeSound". Created by mistersherlock, CC0 1.0 Universal. 
+Source: https://freesound.org/people/mistersherlock/sounds/159509/
+
+#jump check
+Sounds are from "FreeSound". Created by Bastianhallo, CC0 1.0 Universal. 
+Source: https://freesound.org/people/Bastianhallo/sounds/462958/
+
+#grab check
+Sounds are from "FreeSound". Created by Kastenfrosch, CC0 1.0 Universal.
+Source: https://freesound.org/people/Kastenfrosch/sounds/162482/
+
+#death check
+Sounds are from "FreeSound". Created by jacksonacademyashmore, CC0 1.0 Universal.
+Source: https://freesound.org/people/jacksonacademyashmore/sounds/414209/
+
+#winner check
+Sounds are from "FreeSound". Created by jordanielmills, CC0 1.0 Universal.
+https://freesound.org/people/jordanielmills/sounds/167535/
+
+#menu 
+Sounds are from "FreeSound". Created by ADnova, CC0 1.0 Universal.
+https://freesound.org/people/ADnova/sounds/404823/

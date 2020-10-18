@@ -17,5 +17,13 @@ func _process(delta):
 	velocity.y += GRAVITY
 	if Input.is_action_just_pressed("jump") and ground_ray.is_colliding():
 		velocity.y -= JUMP
+		$Jump.play()
 	velocity = move_and_slide(velocity)
-	$Sprite.flip_h = velocity.x < 0
+	if velocity.x < 0:
+		$Sprite.flip_h = true
+		$Sprite/AnimationPlayer.play("walk")
+	if velocity.x > 0:
+		$Sprite.flip_h = false
+		$Sprite/AnimationPlayer.play("walk")
+	if velocity.x == 0:
+		$Sprite/AnimationPlayer.play("idle")
