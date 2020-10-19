@@ -4,6 +4,7 @@
 * Instructions are found in game
 
 ## Project Report
+This project I found particularly fun because I had the most knowledge of what I was doing and instead of following along with a tutorial video or something, I found myself being able to just do more and more without needing a reference. Overall, this project was not really much different from my P2, however, I feel like it is much more polished than the last project even though the objectives stayed pretty much the same. Regardless I am really enjoying this class so far and I can not wait to keep going! One thing I did not understand is that when you load into the start menu for the first time, the music does not play until you die and return to it. Not really sure why, but other than that, this project has been a blast and I think is fitting to the theme.
 
 - [X] D-1: The repository link is submitted to Canvas before the project deadline.
 - [X] D-2: The repository contains a <code>README.md</code> file in its top-level directory.
@@ -18,6 +19,8 @@
 - [X] B-2: The source code and project structure comply with our adopted style guides.
 - [X] B-3: The game runs to a clear end state.
 - [X] A-1: The game includes a complete traditional player experience loop&mdash;title, gameplay, and ending&mdash;and the player has the option to play again.
+
+Therefore, this project deserves an A.
 
 ## Third-Party Assets
 Images are from "RPG Base". Created by Kenny.nl, CC0 1.0 Universal.
